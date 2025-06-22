@@ -13,7 +13,7 @@ where
     ///
     /// ```
     /// use std::collections::HashMap;
-    /// use entry_put_ext::hash_map::EntryPutExt;
+    /// use entry_put_ext::prelude::*;
     ///
     /// let mut map = HashMap::from([("X", false)]);
     /// let x = *map.entry("X").put(true);

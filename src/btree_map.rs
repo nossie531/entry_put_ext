@@ -13,7 +13,7 @@ where
     ///
     /// ```
     /// use std::collections::BTreeMap;
-    /// use entry_put_ext::btree_map::EntryPutExt;
+    /// use entry_put_ext::prelude::*;
     ///
     /// let mut map = BTreeMap::from([("X", false)]);
     /// let x = *map.entry("X").put(true);

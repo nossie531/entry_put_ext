@@ -1,4 +1,4 @@
-use entry_put_ext::btree_map::EntryPutExt;
+use entry_put_ext::prelude::*;
 use std::collections::BTreeMap;
 
 #[test]

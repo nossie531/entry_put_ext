@@ -12,7 +12,7 @@ code about setting and getting shortened a little.
 
 ```
 use std::collections::HashMap;
-use entry_put_ext::hash_map::EntryPutExt;
+use entry_put_ext::prelude::*;
 
 let mut map = HashMap::from([("X", false)]);
 let x = *map.entry("X").put(true);
@@ -26,5 +26,8 @@ assert_eq!(y, map["Y"]);
 [`HashMap`]: std::collections::HashMap
 */
 
+#![warn(missing_docs)]
+
 pub mod btree_map;
 pub mod hash_map;
+pub mod prelude;

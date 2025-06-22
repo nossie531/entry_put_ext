@@ -14,7 +14,7 @@ common code about setting and getting shortened a little.
 
 ```rust
 use std::collections::HashMap;
-use entry_put_ext::hash_map::EntryPutExt;
+use entry_put_ext::prelude::*;
 
 let mut map = HashMap::from([("X", false)]);
 let x = *map.entry("X").put(true);
@@ -55,3 +55,10 @@ let y = *map.entry("Y").and_modify(|x| *x = yv).or_insert(yv);
 assert_eq!(x, map["X"]);
 assert_eq!(y, map["Y"]);
 ```
+
+## What's New
+
+v0.2.0
+
+* Rust edition is updated to 2024.
+* Add prelude module (Although this crate is very small).
