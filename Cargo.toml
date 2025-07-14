@@ -1,6 +1,6 @@
 [package]
 name = "entry_put_ext"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Nossie531"]
 edition = "2024"
 description = "Map entry extension for put operations."

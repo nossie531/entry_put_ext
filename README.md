@@ -56,9 +56,6 @@ assert_eq!(x, map["X"]);
 assert_eq!(y, map["Y"]);
 ```
 
-## What's New
+## Versions
 
-v0.2.0
-
-* Rust edition is updated to 2024.
-* Add prelude module (Although this crate is very small).
+See [CHANGELOG](CHANGELOG.md).
